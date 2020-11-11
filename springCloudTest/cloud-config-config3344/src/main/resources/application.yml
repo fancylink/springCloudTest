@@ -7,11 +7,25 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:fancylink/springcloud-config.git
+          uri: https://github.com/fancylink/springcloud-config.git
           search-paths:
           - springcloud-config
+
       label: master
+
+# 配置rabbitmq
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"

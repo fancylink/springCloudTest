@@ -7,34 +7,47 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-api-commons" />
-        <module name="cloud-config-center-3344" />
-        <module name="cloud-config-config3344" />
-        <module name="cloud-consumer-feign-hystrix-order80" />
-        <module name="cloud-consumer-feign-order80" />
-        <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-consumer-order80" />
-        <module name="cloud-consumerzk-order80" />
-        <module name="cloud-eureka-server7001" />
-        <module name="cloud-eureka-server7002" />
-        <module name="cloud-feignconsumer-order80" />
-        <module name="cloud-gateway-gateway9527" />
+        <module name="cloud-config-config3344" />
         <module name="cloud-provider-hystrix-payment8001" />
-        <module name="cloud-provider-payment8001" />
-        <module name="cloud-provider-payment8002" />
-        <module name="cloud-provider-payment8004" />
+        <module name="cloud-config-center-3344" />
         <module name="cloud-SGeureka-server7001" />
+        <module name="cloud-eureka-server7002" />
+        <module name="cloud-eureka-server7001" />
+        <module name="cloud-api-commons" />
+        <module name="cloud-consumerzk-order80" />
+        <module name="cloud-provider-payment8004" />
+        <module name="cloud-consumerconsul-order80" />
+        <module name="cloud-provider-payment8002" />
+        <module name="cloud-provider-payment8001" />
+        <module name="cloud-consumer-sleuth-order80" />
         <module name="cloudconsumerfeignorder80" />
+        <module name="cloud-consumer-feign-hystrix-order80" />
+        <module name="cloud-stream-rabbitmq-provider8801" />
+        <module name="cloud-provider-Slueth-payment8001" />
+        <module name="cloud-feignconsumer-order80" />
+        <module name="cloud-stream-rabbitmq-consumer8803" />
+        <module name="cloud-config-client-3355" />
+        <module name="cloud-providerconsul-payment8006" />
+        <module name="cloud-gateway-gateway9527" />
+        <module name="cloud-consumer-hystrix-dashboard9001" />
+        <module name="cloud-consumer-feign-order80" />
+        <module name="cloud-config-client-3366" />
+        <module name="cloud-stream-rabbitmq-consumer8802" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-api-commons" target="1.8" />
       <module name="cloud-config-center-3344" target="1.8" />
+      <module name="cloud-config-client-3355" target="1.8" />
+      <module name="cloud-config-client-3366" target="1.8" />
       <module name="cloud-config-config3344" target="1.8" />
       <module name="cloud-consumer-feign-hystrix-order80" target="1.8" />
       <module name="cloud-consumer-feign-order80" target="1.8" />
       <module name="cloud-consumer-hystrix-dashboard9001" target="1.8" />
       <module name="cloud-consumer-order80" target="1.8" />
+      <module name="cloud-consumer-sleuth-order80" target="1.8" />
+      <module name="cloud-consumerconsul-order80" target="1.8" />
       <module name="cloud-consumerzk-order80" target="1.8" />
       <module name="cloud-eureka-server7001" target="1.8" />
       <module name="cloud-eureka-server7002" target="1.8" />
@@ -44,7 +57,12 @@
       <module name="cloud-provider-payment8001" target="1.8" />
       <module name="cloud-provider-payment8002" target="1.8" />
       <module name="cloud-provider-payment8004" target="1.8" />
+      <module name="cloud-provider-Slueth-payment8001" target="1.8" />
+      <module name="cloud-providerconsul-payment8006" target="1.8" />
       <module name="cloud-SGeureka-server7001" target="1.8" />
+      <module name="cloud-stream-rabbitmq-consumer8802" target="1.8" />
+      <module name="cloud-stream-rabbitmq-consumer8803" target="1.8" />
+      <module name="cloud-stream-rabbitmq-provider8801" target="1.8" />
       <module name="cloudconsumerfeignorder80" target="1.8" />
       <module name="springCloudTest" target="1.8" />
     </bytecodeTargetLevel>
